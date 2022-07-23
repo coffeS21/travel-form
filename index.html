@@ -10,13 +10,13 @@
 <body>
     <header><h1>SHELTZ AIR</h1></header>
     <section id="formCard">
+        
         <form name="boardingPass">
-
             <fieldset>
                 <legend>passanger information</legend>
-                <input type="text" name="firstName">
-                <input type="text" name="lastName" >
-                <input type="number" name="age" >
+                <input type="text" name="firstName" placeholder="first name">
+                <input type="text" name="lastName" placeholder="last name">
+                <input type="number" name="age" placeholder="age">
             
 
         
@@ -55,21 +55,22 @@
         
                 <div>
                     <legend>meal type:</legend>
-                    <input type="checkbox" name="carnivoreDite" id="carnivoreDite" >
+                    <input type="checkbox" name="dite" value="carnivoreDite" id="carnivoreDite" >
                     <label for="carnivoreDite">carnivore dite</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="veggieDite" id="veggieDite" >
+                    <input type="checkbox" value="veggieDite"  name="dite" id="veggieDite" >
                     <label for="veggieDite">veggie dite</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="everythingDite" id="everythingDite" >
+                    <input type="checkbox" value="everythingDite"  name="dite" id="everythingDite" >
                     <label for="everythingDite">no restrictions</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="VeganDite" id="VeganDite" >
+                    <input type="checkbox" value="VeganDite"  name="dite" id="VeganDite" >
                     <label for="VeganDite">vegan dite</label>
                 </div>
+                <button>hit it</button>
             </fieldset>
         </form>
     </section>
